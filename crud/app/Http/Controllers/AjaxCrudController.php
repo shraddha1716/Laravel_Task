@@ -10,17 +10,7 @@ class AjaxCrudController extends Controller
 //    use shorcut commond that create controller model migration in single commond
 //    php artisan make:model mname -mcr
 
-    public function index()
-    {
-        
-    }
-
-
-    public function create()
-    {
-        //
-    }
-
+    
    
     public function store(Request $request)
     {
