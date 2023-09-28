@@ -11,6 +11,7 @@ class FileController extends Controller
 {
     public function index()
     {
+        // dd("test");
         $images = File::all();
         return view('files',compact('images'));
     }
